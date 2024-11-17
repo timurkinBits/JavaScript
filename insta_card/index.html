@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="post-card">
+        <div class="post-header">
+            <img src="user-avatar.jpg" alt="User Avatar" class="avatar">
+            <span class="username">username</span>
+        </div>
+        <img id="postImage" src="" alt="Post Image" class="post-image">
+        <div class="post-footer">
+            <div class="like-section">
+                <button id="likeButton">
+                    <img id="likeIcon" src="heart-icon.svg" alt="Like Icon">
+                </button>
+                <span id="likeCount">0</span> likes
+            </div>
+            <p class="description">Описание поста...</p>
+            <div class="comments-section" id="commentsSection">
+            </div>
+            <button id="addComment">Добавить комментарий</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
